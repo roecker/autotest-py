@@ -6,34 +6,48 @@
 
 these are the commandline options from autotest-ng:
 -- 8< --
-    ./autotest.sh <option> ( <test 1> <test 2> ... <test n> )
-    where <option> can be:
-
-[ ]    -a <user>    : connect as <user> to vmware-server (default: root)
-[ ]    -b           : skip initial backup. Usefull for test developement.
-[ ]    -B           : create/restore system backup at start/end of each test.
-[ ]    -c <test>    : create new test directory
-[ ]    -d           : debug mode! wait for keypress on error
-[ ]    -D           : developer mode! show internal debug information
-[ ]    -f           : force to overwrite lock-files
-[ ]    -g <vm>      : choose a snapshot for <vm> you want to revert to
-[ ]    -G <vm>      : create snapshot
-[ ]    -h           : print (this) help
-[ ]    -i <vm>      : show infos of vm (located in vm/<vm>.vm)
-[ ]    -l <file>    : use <file> for logging
-[ ]    -n <host>    : set ntp-server (default: 192.168.0.1)
-[ ]    -p           : calculate test parameters for combitest, targetdir: <testdir>/tmp/
-[ ]    -q           : run in quickmode (skip backups and locks)
-[ ]    -R           : rerun failed tests
-[ ]    -s/S         : suspend/shutdown virtual machines after test(s)
-[ ]    -v           : verbose mode
-[ ]    -V <host>    : use <host> as vmware-server (default: 192.168.0.20)
-[ ]    -z           : list tests available
-
-[ ]    -m [role|vm]=vm      : map role/vm to vm
-[ ]    -r <runlevel>        : run tests with given runlevel (1-9, default 3)
-[ ]    -u <vm>=<update>     : update vm. For multiple updates, use a
-                              comma separated list (d1=update1.rbu,d2=update2.rbu)
+Usage: ./autotest.sh <options> [test [test ...]]
+positional arguments:"
+   test     list of tests
+optional arguments:
+   -4           only use IPv4
+   -6           only use IPv6
+   -a <user>    connect as <user> to vmware-server (default: root)
+   -B           create/restore system backup at start/end of each test.
+   -c <test>    create new test directory
+   -C           check virtual machines for configuration error (for debugging purposes only)
+   -d           debug mode! wait for keypress on error
+   -D           developer mode! show internal debug information
+   -f           force to overwrite lock-files
+   -g <vm>[:snapshot number]
+                create a snapshot for <vm> you want to revert to
+   -G <vm>      create snapshot
+   -h           print (this) help
+   -i <vm>      show infos of vm (located in vm/<vm>.vm)
+   -l <file>    use <file> for logging
+   -L           create new logfile (moves autotest.log to autotest.log.1)
+   -m [role|vm]=vm
+                map role/vm to vm
+   -n <host>    set ntp-server (default: 192.168.0.1)
+   -p           calculate test parameters for combitest
+                targetdir: <testdir>/tmp/
+   -q           quickmode. Skip backup- and lock procedures
+   -r <runlevel>
+                run tests with given runlevel (1-9, default 3)
+   -R           rerun failed tests
+   -s/S         suspend/shutdown virtual machines after test(s)
+   -T           call test.sh with -x 
+   -u <vm>=<update>
+                update VMs. <vm>=<update> can be used as followed:
+                   -u d1=update.rbu
+                   -u d1,d2,d3b=update.rbu
+                   -u "d1=update.rbu d1=update2.rbu"
+                   -u "d1,d2=update.rbu d2,d3=update2.rbu"
+                   watch the quotation marks!
+   -v           verbose mode
+   -V <host>    use <host> as vmware-server (default: 192.168.0.20)
+   -z           show current state of virtual machines. Returns
+                locked, free or powered off.
 -- >8 --
 
 

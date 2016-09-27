@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 #   This file is part of autotest-pi.
-#                                                                                                        
+#
 #   autotest-pi is free software: you can redistribute it and/or modify
 #   it under the terms of the GNU General Public License as published by
 #   the Free Software Foundation, either version 3 of the License, or
@@ -38,10 +38,10 @@ def parse_arguments():
                         nargs='*',
                         help="list of tests")
     parser.add_argument("-d",
-                        "--debug", 
+                        "--debug",
                         action="store_true",
                         help="debug mode")
-    parser.add_argument("--runlevel", 
+    parser.add_argument("--runlevel",
                         type=int,
                         default=3,
                         help="run tests with given runlevel (1-9, default 3)")
@@ -52,11 +52,11 @@ def parse_arguments():
                         help="be verbose (can be used multiple times)")
     args = parser.parse_args()
     return args
- 
+
 
 def setup_logging(args):
     logfilename='log/autotest.log'
-    logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s', 
+    logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s',
                         datefmt='%d.%m.%Y %H:%M:%S',
                         filename=logfilename,level=logging.DEBUG)
 
@@ -83,7 +83,7 @@ def get_testlist(testparameter):
           2.) nur Verzeichnis: 'tests/firewall/incoming'
           3.) zu expandierender Ordner: 'tests'
 
-        Aus diesen unterschiedlichen Formen soll nun die Liste 
+        Aus diesen unterschiedlichen Formen soll nun die Liste
         autotests[] aufgebaut werden. In dieser soll der Syntax
         immer identisch sein: 'tests/pfad/zum/test'. Also
           - ohne führendes './'
@@ -99,8 +99,8 @@ def get_testlist(testparameter):
             logging.debug("test " + test + " [OK]")
             autotests.append(test)
         elif os.path.isdir(test):
-            """Das hier expandiert 'dummy/' zu 'dummy/true/test.sh', 
-            dummy/false/test.sh'. Leider muss hier das test.sh 
+            """Das hier expandiert 'dummy/' zu 'dummy/true/test.sh',
+            dummy/false/test.sh'. Leider muss hier das test.sh
             noch rausgeschmissen werden!
             """
             for root, dirs, files in os.walk("./"):
@@ -113,7 +113,9 @@ def get_testlist(testparameter):
                         autotests.append(root)
         else:
             logging.info("test " + test + " not found")
+
     return autotests
+
 
 
 if __name__ == '__main__':
