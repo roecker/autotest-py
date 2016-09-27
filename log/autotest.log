@@ -1,0 +1,261 @@
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+2015-02-17 12:03:49,758 This message should go to the log file
+2015-02-17 12:03:49,759 So should this
+2015-02-17 12:03:49,759 And this, too
+2015-02-18 10:42:09,617 DEBUG:This message should go to the log file
+2015-02-18 10:42:09,618 INFO:So should this
+2015-02-18 10:42:09,618 WARNING:And this, too
+2015-02-18 10:42:20,647 DEBUG:This message should go to the log file
+2015-02-18 10:42:20,647 INFO:So should this
+2015-02-18 10:42:20,647 WARNING:And this, too
+02.18.2015 10:49:48 AM DEBUG:This message should go to the log file
+02.18.2015 10:49:48 AM INFO:So should this
+02.18.2015 10:49:48 AM WARNING:And this, too
+18.02.2015 10:50:01 AM DEBUG:This message should go to the log file
+18.02.2015 10:50:01 AM INFO:So should this
+18.02.2015 10:50:01 AM WARNING:And this, too
+18.02.2015 10:56:15 AM DEBUG:This message should go to the log file
+18.02.2015 10:56:15 AM INFO:So should this
+18.02.2015 10:56:15 AM WARNING:And this, too
+18.02.2015 10:56:20 AM DEBUG:This message should go to the log file
+18.02.2015 10:56:20 AM INFO:So should this
+18.02.2015 10:56:20 AM WARNING:And this, too
+18.02.2015 10:59:58 AM INFO:info message
+18.02.2015 10:59:58 AM WARNING:warning message
+18.02.2015 11:00:07 AM INFO:info message
+18.02.2015 11:00:07 AM WARNING:warning message
+18.02.2015 11:16:25 AM INFO:info message
+18.02.2015 11:16:25 AM WARNING:warning message
+18.02.2015 11:26:08 AM INFO:info message
+18.02.2015 11:26:08 AM WARNING:warning message
+18.02.2015 11:32:05 AM INFO:info message
+18.02.2015 11:32:05 AM WARNING:warning message
+18.02.2015 11:32:05 AM INFO:verbose message should only be logged if            param -v is set
+18.02.2015 11:32:45 AM INFO:info message
+18.02.2015 11:32:45 AM WARNING:warning message
+18.02.2015 11:32:45 AM INFO:verbose message should only be logged if param -v is set
+18.02.2015 11:32:56 AM INFO:info message
+18.02.2015 11:32:56 AM WARNING:warning message
+18.02.2015 11:32:56 AM INFO:verbose message should only be logged if param -v is set
+18.02.2015 11:33:06 AM INFO:info message
+18.02.2015 11:33:06 AM WARNING:warning message
+18.02.2015 12:44:44 PM INFO:info message
+18.02.2015 12:44:44 PM WARNING:warning message
+18.02.2015 12:44:49 PM INFO:info message
+18.02.2015 12:44:49 PM WARNING:warning message
+18.02.2015 12:44:55 PM INFO:info message
+18.02.2015 12:44:55 PM WARNING:warning message
+18.02.2015 12:44:55 PM INFO:verbose message should only be logged if param -v is set
+18.02.2015 12:46:12 PM INFO:info message
+18.02.2015 12:46:12 PM WARNING:warning message
+18.02.2015 12:46:12 PM INFO:verbose mode
+18.02.2015 12:46:16 PM INFO:info message
+18.02.2015 12:46:16 PM WARNING:warning message
+18.02.2015 12:47:46 PM DEBUG:debug mode
+18.02.2015 12:47:46 PM INFO:info message
+18.02.2015 12:47:46 PM WARNING:warning message
+2015-02-18 12:56:23,938 DEBUG:debug mode
+2015-02-18 12:56:23,938 INFO:info message
+2015-02-18 12:56:23,938 WARNING:warning message
+18.02.2015 13:00:08 DEBUG:debug mode
+18.02.2015 13:00:08 INFO:info message
+18.02.2015 13:00:08 WARNING:warning message
+18.02.2015 13:00:10 DEBUG:debug mode
+18.02.2015 13:00:10 INFO:info message
+18.02.2015 13:00:10 WARNING:warning message
+18.02.2015 13:00:10 INFO:verbose mode
+18.02.2015 13:01:47 DEBUG:debug mode
+18.02.2015 13:01:47 INFO:info message
+18.02.2015 13:01:47 WARNING:warning message
+18.02.2015 13:01:47 INFO:verbose mode
+18.02.2015 13:02:03 DEBUG:debug mode
+18.02.2015 13:02:03 INFO:info message
+18.02.2015 13:02:03 WARNING:warning message
+18.02.2015 13:10:55 DEBUG:debug mode
+18.02.2015 13:10:55 INFO:info message
+18.02.2015 13:10:55 WARNING:warning message
+18.02.2015 13:10:55 INFO:verbose mode
+18.02.2015 13:11:41 [DEBUG] debug mode
+18.02.2015 13:11:41 [INFO] info message
+18.02.2015 13:11:41 [WARNING] warning message
+18.02.2015 13:11:41 [INFO] verbose mode
+18.02.2015 15:13:39 INFO:info message
+18.02.2015 15:13:39 WARNING:warning message
+18.02.2015 15:13:46 INFO:info message
+18.02.2015 15:13:46 WARNING:warning message
+18.02.2015 15:13:46 INFO:verbose mode
+18.02.2015 17:03:36 INFO:info message
+18.02.2015 17:03:36 WARNING:warning message
+18.02.2015 17:03:36 INFO:verbose mode
+18.02.2015 17:03:38 DEBUG:debug mode
+18.02.2015 17:03:38 INFO:info message
+18.02.2015 17:03:38 WARNING:warning message
+18.02.2015 17:03:38 INFO:verbose mode
+18.02.2015 17:03:51 DEBUG:debug mode
+18.02.2015 17:03:51 INFO:info message
+18.02.2015 17:03:51 WARNING:warning message
+18.02.2015 17:03:51 INFO:verbose mode
+18.02.2015 17:04:27 INFO:info message
+18.02.2015 17:04:27 WARNING:warning message
+18.02.2015 17:10:54 INFO:info message
+18.02.2015 17:10:54 WARNING:warning message
+19.02.2015 10:14:38 INFO:info message
+19.02.2015 10:14:38 WARNING:warning message
+19.02.2015 10:15:16 INFO:info message
+19.02.2015 10:15:16 WARNING:warning message
+19.02.2015 10:22:07 INFO:info message
+19.02.2015 10:22:07 WARNING:warning message
+19.02.2015 10:59:35 INFO:info message
+19.02.2015 10:59:35 WARNING:warning message
+19.02.2015 10:59:39 INFO:info message
+19.02.2015 10:59:39 WARNING:warning message
+19.02.2015 11:01:29 DEBUG:debug mode
+19.02.2015 11:01:29 INFO:info message
+19.02.2015 11:01:29 WARNING:warning message
+19.02.2015 11:01:36 INFO:info message
+19.02.2015 11:01:36 WARNING:warning message
+19.02.2015 11:03:32 DEBUG:debug mode
+19.02.2015 11:03:32 INFO:info message
+19.02.2015 11:03:32 WARNING:warning message
+19.02.2015 11:07:01 INFO:info message
+19.02.2015 11:07:01 WARNING:warning message
+19.02.2015 11:07:04 DEBUG:debug mode
+19.02.2015 11:07:04 INFO:info message
+19.02.2015 11:07:04 WARNING:warning message
+19.02.2015 13:36:48 DEBUG:debug mode
+19.02.2015 13:36:48 INFO:info message
+19.02.2015 13:36:48 WARNING:warning message
+19.02.2015 13:39:19 DEBUG:debug mode
+19.02.2015 13:39:19 INFO:info message
+19.02.2015 13:39:19 WARNING:warning message
+19.02.2015 13:39:42 INFO:info message
+19.02.2015 13:39:42 WARNING:warning message
+19.02.2015 13:39:44 INFO:info message
+19.02.2015 13:39:44 WARNING:warning message
+19.02.2015 13:39:54 INFO:info message
+19.02.2015 13:39:54 WARNING:warning message
+19.02.2015 13:39:56 DEBUG:debug mode
+19.02.2015 13:39:56 INFO:info message
+19.02.2015 13:39:56 WARNING:warning message
+19.02.2015 13:39:59 DEBUG:debug mode
+19.02.2015 13:39:59 INFO:info message
+19.02.2015 13:39:59 WARNING:warning message
+19.02.2015 13:46:14 INFO:info message
+19.02.2015 13:46:14 WARNING:warning message
+19.02.2015 13:46:14 INFO:verbose mode
+19.02.2015 13:46:16 INFO:info message
+19.02.2015 13:46:16 WARNING:warning message
+19.02.2015 13:46:16 INFO:verbose mode
+20.02.2015 09:17:07 INFO:info message
+20.02.2015 09:17:07 WARNING:warning message
+20.02.2015 09:17:29 INFO:info message
+20.02.2015 09:17:29 WARNING:warning message
+20.02.2015 09:17:38 INFO:info message
+20.02.2015 09:17:38 WARNING:warning message
+20.02.2015 09:17:53 INFO:info message
+20.02.2015 09:17:53 WARNING:warning message
+20.02.2015 09:17:56 INFO:info message
+20.02.2015 09:17:56 WARNING:warning message
+20.02.2015 10:53:47 INFO:info message
+20.02.2015 10:53:47 WARNING:warning message
+20.02.2015 10:54:05 INFO:info message
+20.02.2015 10:54:05 WARNING:warning message
+20.02.2015 12:20:57 INFO:info message
+20.02.2015 12:20:57 WARNING:warning message
+20.02.2015 12:21:39 INFO:info message
+20.02.2015 12:21:39 WARNING:warning message
+20.02.2015 12:21:48 INFO:info message
+20.02.2015 12:21:48 WARNING:warning message
+20.02.2015 12:21:57 INFO:info message
+20.02.2015 12:21:57 WARNING:warning message
+20.02.2015 12:22:02 INFO:info message
+20.02.2015 12:22:02 WARNING:warning message
+20.02.2015 12:22:29 INFO:info message
+20.02.2015 12:22:29 WARNING:warning message
+20.02.2015 12:22:39 INFO:info message
+20.02.2015 12:22:39 WARNING:warning message
+20.02.2015 12:55:24 INFO:info message
+20.02.2015 12:55:24 WARNING:warning message
+20.02.2015 12:58:31 INFO:info message
+20.02.2015 12:58:31 WARNING:warning message
+20.02.2015 12:58:31 DEBUG:test id:dummy/true
+20.02.2015 12:58:43 INFO:info message
+20.02.2015 12:58:43 WARNING:warning message
+20.02.2015 12:58:43 DEBUG:test id:dummy/true
+20.02.2015 12:58:43 DEBUG:test id:dummy
+20.02.2015 12:58:58 INFO:info message
+20.02.2015 12:58:58 WARNING:warning message
+20.02.2015 12:59:11 INFO:info message
+20.02.2015 12:59:11 WARNING:warning message
+20.02.2015 12:59:11 DEBUG:test-id: dummy/true
+20.02.2015 12:59:11 DEBUG:test-id: dummy
+20.02.2015 12:59:45 INFO:info message
+20.02.2015 12:59:45 WARNING:warning message
+20.02.2015 12:59:45 DEBUG:test-id: dummy/true
+20.02.2015 12:59:45 DEBUG:test-id: dummy
+20.02.2015 14:41:45 INFO:info message
+20.02.2015 14:41:45 WARNING:warning message
+20.02.2015 14:41:45 DEBUG:test-id: dummy/true
+20.02.2015 14:41:45 DEBUG:test-id: dummy
+20.02.2015 14:46:22 INFO:info message
+20.02.2015 14:46:22 WARNING:warning message
+20.02.2015 14:46:46 INFO:info message
+20.02.2015 14:46:46 WARNING:warning message
+20.02.2015 14:46:48 INFO:info message
+20.02.2015 14:46:48 WARNING:warning message
+20.02.2015 14:48:00 INFO:test dummy/true/test.sh not found
+20.02.2015 14:49:24 INFO:test dummy/true/test.sh not found
+20.02.2015 14:50:30 INFO:test dummy/true/test.sh[OK]
+20.02.2015 14:50:37 INFO:test dummy/true/test.sh [OK]
+20.02.2015 14:52:09 INFO:test dummy/true/test.sh [OK]
+20.02.2015 14:52:11 WARNING:test dummy/true/test.s not found
+20.02.2015 15:08:27 DEBUG:parameter dummy/true/test.sh contains test.sh
+20.02.2015 15:09:05 INFO:test dummy/true [OK]
+20.02.2015 15:09:23 DEBUG:test dummy/true [OK]
+20.02.2015 15:16:18 DEBUG:test dummy/true [OK]
+20.02.2015 15:16:22 DEBUG:removed scriptname from parameter dummy/true/test.sh
+20.02.2015 15:16:37 DEBUG:removed scriptname from parameter dummy/true/test.sh
+20.02.2015 15:17:11 DEBUG:removed scriptname from parameter dummy/true/test.sh
+20.02.2015 15:17:37 DEBUG:removed scriptname from parameter dummy/true
+20.02.2015 15:17:37 DEBUG:test dummy/true [OK]
+20.02.2015 15:20:15 DEBUG:removed scriptname from parameter dummy/true
+20.02.2015 15:20:15 DEBUG:test dummy/true [OK]
+20.02.2015 15:20:24 DEBUG:removed scriptname from parameter dummy/true
+20.02.2015 15:20:24 DEBUG:test dummy/true [OK]
+20.02.2015 15:21:17 DEBUG:test dummy/false [OK]
+20.02.2015 15:23:35 DEBUG:test dummy/false [OK]
+20.02.2015 15:23:45 DEBUG:test dummy/false [OK]
+20.02.2015 15:23:45 DEBUG:removed scriptname from parameter dummy/true
+20.02.2015 15:23:45 DEBUG:test dummy/true [OK]
+20.02.2015 15:23:45 INFO:test dummy/kecksnot found
+20.02.2015 15:28:01 DEBUG:test dummy/false [OK]
+20.02.2015 15:28:01 DEBUG:removed scriptname from parameter dummy/true
+20.02.2015 15:28:01 DEBUG:test dummy/true [OK]
+20.02.2015 15:28:01 INFO:test dummy/kecks not found
+20.02.2015 15:28:23 DEBUG:test dummy/false [OK]
+20.02.2015 15:28:23 DEBUG:removed scriptname from parameter dummy/true
+20.02.2015 15:28:23 DEBUG:test dummy/true [OK]
+20.02.2015 15:28:23 INFO:test dummy/kecks not found
+20.02.2015 15:28:35 DEBUG:test dummy/false [OK]
+20.02.2015 15:28:35 DEBUG:removed scriptname from parameter dummy/true
+20.02.2015 15:28:35 DEBUG:test dummy/true [OK]
+20.02.2015 15:28:35 INFO:test dummy/kecks not found
+20.02.2015 15:29:06 DEBUG:test dummy/false [OK]
+20.02.2015 15:29:06 INFO:test dummy/ not found
+20.02.2015 15:29:10 INFO:test dummy not found
+20.02.2015 15:29:23 INFO:test dummy/ not found
+20.02.2015 16:00:06 DEBUG:test dummy/true/ [OK]
+20.02.2015 16:00:06 DEBUG:test dummy/false [OK]
+20.02.2015 16:01:14 DEBUG:test dummy/true/ [OK]
+20.02.2015 16:01:14 DEBUG:test dummy/false [OK]
+20.02.2015 16:06:10 DEBUG:test dummy/true [OK]
+24.02.2015 15:14:58 DEBUG:test dummy/true [OK]
+16.03.2015 10:50:40 DEBUG:test dummy/true [OK]
+26.08.2015 13:25:20 DEBUG:removed scriptname from parameter dummy/true
+26.08.2015 13:25:20 DEBUG:test dummy/true [OK]
+26.08.2015 13:28:30 DEBUG:test dummy/true [OK]
+26.08.2015 13:28:32 DEBUG:test dummy/true/ [OK]
+26.08.2015 13:28:40 DEBUG:test dummy/true [OK]
+27.09.2016 13:22:22 DEBUG:test dummy/true [OK]

@@ -1,0 +1,56 @@
+#### Commandline-Options 
+
+[ ]     Eine Option die eine kurze Übersicht über die Tests inklusive kurzer
+        Beschreibung ausgibt.
+
+
+these are the commandline options from autotest-ng:
+-- 8< --
+    ./autotest.sh <option> ( <test 1> <test 2> ... <test n> )
+    where <option> can be:
+
+[ ]    -a <user>    : connect as <user> to vmware-server (default: root)
+[ ]    -b           : skip initial backup. Usefull for test developement.
+[ ]    -B           : create/restore system backup at start/end of each test.
+[ ]    -c <test>    : create new test directory
+[ ]    -d           : debug mode! wait for keypress on error
+[ ]    -D           : developer mode! show internal debug information
+[ ]    -f           : force to overwrite lock-files
+[ ]    -g <vm>      : choose a snapshot for <vm> you want to revert to
+[ ]    -G <vm>      : create snapshot
+[ ]    -h           : print (this) help
+[ ]    -i <vm>      : show infos of vm (located in vm/<vm>.vm)
+[ ]    -l <file>    : use <file> for logging
+[ ]    -n <host>    : set ntp-server (default: 192.168.0.1)
+[ ]    -p           : calculate test parameters for combitest, targetdir: <testdir>/tmp/
+[ ]    -q           : run in quickmode (skip backups and locks)
+[ ]    -R           : rerun failed tests
+[ ]    -s/S         : suspend/shutdown virtual machines after test(s)
+[ ]    -v           : verbose mode
+[ ]    -V <host>    : use <host> as vmware-server (default: 192.168.0.20)
+[ ]    -z           : list tests available
+
+[ ]    -m [role|vm]=vm      : map role/vm to vm
+[ ]    -r <runlevel>        : run tests with given runlevel (1-9, default 3)
+[ ]    -u <vm>=<update>     : update vm. For multiple updates, use a
+                              comma separated list (d1=update1.rbu,d2=update2.rbu)
+-- >8 --
+
+
+TODO:
+    - conflicting options
+
+
+LOGLEVELS:
+
+OLD-Version         NG-Version
+  debug             debug
+  info              info
+  warning           warning
+  error             error
+  critical          critical
+
+  log               ---
+  abort             ---
+
+==> - premature log is going to be replaced by info
